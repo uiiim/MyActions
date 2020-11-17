@@ -29,6 +29,7 @@ jobs:
               run: python3 xmly_speed.py
               env:
                   XMLY_SPEED_COOKIE: ${{ secrets.XMLY_SPEED_COOKIE }}
+                  BARK_MACHINE_CODE: ${{ secrets.BARK_MACHINE_CODE }}
                   XMLY_ACCUMULATE_TIME: ${{ secrets.XMLY_ACCUMULATE_TIME }}
                   XMLY_ACCUMULATE_INDEX: ${{ secrets.XMLY_ACCUMULATE_INDEX }}
                   XMLY_ACCUMULATE_HOURS: ${{ secrets.XMLY_ACCUMULATE_HOURS }}
